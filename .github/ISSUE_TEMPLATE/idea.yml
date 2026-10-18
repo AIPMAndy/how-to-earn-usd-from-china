@@ -1,0 +1,22 @@
+name: 功能与内容改进建议
+description: 网站、导航、可用性及想补充的出海业务问题
+title: "[改进建议] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 你实际遇到了什么问题
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 想要补充什么具体答案
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: 设备或浏览器（仅网站问题）
+      placeholder: iPhone / Safari

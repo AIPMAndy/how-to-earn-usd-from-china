@@ -1,0 +1,46 @@
+name: 分享真实海外接单案例
+description: 有公开授权的真实项目经验，不涉及客户隐私
+title: "[真实案例] "
+body:
+  - type: markdown
+    attributes:
+      value: 请避免填写姓名、银行账号、订单号、客户内部材料以及未经授权的截图。
+  - type: dropdown
+    id: route
+    attributes:
+      label: 生意类型
+      options:
+        - 专业咨询
+        - AI 自动化与开发
+        - 设计与视频
+        - 内容与增长
+        - 供应链协助
+        - 本地化
+        - 数字产品
+        - SaaS
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: case
+    attributes:
+      label: 从客户需求到实际交付
+      description: 如何找到客户、具体交付了什么、是否有复购
+    validations:
+      required: true
+  - type: textarea
+    id: proof
+    attributes:
+      label: 可核验的来源或公开证据
+      description: 如公开产品页、已授权项目资料，不接受私人付款截图
+    validations:
+      required: true
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: 投稿确认
+      options:
+        - label: 已取得必要的公开授权，不包含客户隐私
+          required: true
+        - label: 没有将示例或预测描述成真实成交
+          required: true

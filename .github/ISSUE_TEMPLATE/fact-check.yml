@@ -1,0 +1,32 @@
+name: 更新平台或税务政策
+description: 纠正过期链接、地区限制、账户和外汇规则
+title: "[资料更新] "
+body:
+  - type: input
+    id: path
+    attributes:
+      label: 需要修改的文件或章节
+      placeholder: docs/02-payment-tax.md
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: 原说法和正确说法
+      description: 说明具体错误和适用范围
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: 官方原始来源
+      placeholder: https://...
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: 核验日期及适用主体
+      placeholder: 2026-10-18 / 中国大陆个人
+    validations:
+      required: true
