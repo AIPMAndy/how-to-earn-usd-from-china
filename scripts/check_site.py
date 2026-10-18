@@ -49,7 +49,7 @@ print('PASS — 10 chapters, 8 business paths, site links, 4 SVG infographics, p
 from xml.etree import ElementTree as ET
 for path in ['robots.txt','sitemap.xml','404.html','docs/START-HERE.md','templates/first-order-checklist.md','templates/payment-records.md','templates/service-quote.md','.github/ISSUE_TEMPLATE/config.yml','.github/ISSUE_TEMPLATE/real-case.yml','.github/ISSUE_TEMPLATE/fact-check.yml','.github/ISSUE_TEMPLATE/idea.yml']:
  if not (ROOT/path).is_file():errors.append('missing contributor/SEO resource '+path)
-for f in files:
+for f in pages:
  if not f.is_file():continue
  html=BeautifulSoup(f.read_text(encoding='utf8'),'html.parser')
  if not html.select_one('link[rel="canonical"]'):errors.append('missing canonical '+f.name)
