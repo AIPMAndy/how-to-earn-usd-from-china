@@ -29,13 +29,13 @@ for title in ['专业咨询','AI 自动化','供应链','收款','税务','十�
  if title not in text:errors.append('guide missing '+title)
 if not (ROOT/'assets/cover.svg').exists():errors.append('missing cover')
 for name in ['01-生意闭环','02-八种模式','03-资金闭环','04-长期经营']:
- for ext in ['svg','png']:
-  if not (ROOT/'assets'/f'{name}.{ext}').exists():errors.append('missing figure '+name+'.'+ext)
+ if not (ROOT/'assets'/f'{name}.svg').exists():errors.append('missing figure '+name+'.svg')
+ # PNGs are optional offline exports; GitHub Pages uses lossless SVG.
 for f in ['README.md','README_EN.md','docs/SOURCES.md','docs/01-business-paths.md','docs/02-payment-tax.md','docs/03-customers-and-delivery.md','examples/outreach-messages.md']:
  if not (ROOT/f).is_file():errors.append('missing '+f)
 if errors:
  print('FAILED',*errors,sep='\n - ');sys.exit(1)
-print('PASS — full article, local links, four SVG/PNG figures, site and docs')
+print('PASS — full article, local links, four SVG figures, site and docs')
 
 # v1.1: findable and trustworthy landing pages, proper on-site navigation.
 from urllib.parse import urldefrag
