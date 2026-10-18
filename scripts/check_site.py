@@ -40,7 +40,7 @@ print('PASS — full article, local links, four SVG figures, site and docs')
 # v1.1: findable and trustworthy landing pages, proper on-site navigation.
 from urllib.parse import urldefrag
 from xml.etree import ElementTree as ET
-for f in [ROOT/'robots.txt',ROOT/'sitemap.xml',ROOT/'docs/START-HERE.md',ROOT/'templates/first-order-checklist.md',ROOT/'templates/payment-records.md',ROOT/'templates/service-quote.md',ROOT/'.github/ISSUE_TEMPLATE/case.yml',ROOT/'.github/ISSUE_TEMPLATE/source-update.yml',ROOT/'.github/ISSUE_TEMPLATE/improvement.yml',ROOT/'.github/ISSUE_TEMPLATE/config.yml']:
+for f in [ROOT/'robots.txt',ROOT/'sitemap.xml',ROOT/'docs/START-HERE.md',ROOT/'templates/first-order-checklist.md',ROOT/'templates/payment-records.md',ROOT/'templates/service-quote.md',ROOT/'.github/ISSUE_TEMPLATE/real-case.yml',ROOT/'.github/ISSUE_TEMPLATE/fact-check.yml',ROOT/'.github/ISSUE_TEMPLATE/idea.yml',ROOT/'.github/ISSUE_TEMPLATE/config.yml']:
  if not f.is_file():errors.append('missing discoverability resource '+str(f.relative_to(ROOT)))
 for f in files:
  if not f.is_file():continue
