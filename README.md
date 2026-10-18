@@ -61,6 +61,8 @@
 
 请不要在公开 Issue 上传银行流水、客户联系方式、身份证、合同原件和其他隐私数据。目前尚未选定商业再利用许可证，详见 [LICENSE-CHOICES.md](LICENSE-CHOICES.md)。
 
+**[可直接发布的项目介绍与传播文案](docs/PROMOTE.md) · [后续更新路线](docs/ROADMAP.md)**
+
 ## 关于作者
 
 **AI 酋长 Andy** · 前腾讯、百度 AI 产品从业者 · AI 产品、职业成长与出海实践
