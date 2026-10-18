@@ -3,70 +3,86 @@
 <p align="center"><img src="assets/cover.svg" alt="中国人赚美金保姆级攻略" width="100%"></p>
 
 <p align="center">
-<a href="https://aipmandy.github.io/how-to-earn-usd-from-china/"><img src="https://img.shields.io/badge/在线阅读-完整网站-172532?style=flat-square" alt="在线阅读"></a>
-<a href="https://github.com/AIPMAndy/how-to-earn-usd-from-china/actions/workflows/check.yml"><img src="https://github.com/AIPMAndy/how-to-earn-usd-from-china/actions/workflows/check.yml/badge.svg" alt="内容检查"></a>
-<a href="https://github.com/AIPMAndy/how-to-earn-usd-from-china/stargazers"><img src="https://img.shields.io/github/stars/AIPMAndy/how-to-earn-usd-from-china?style=flat-square" alt="Stars"></a>
-<a href="README_EN.md"><img src="https://img.shields.io/badge/English-README-AD8756?style=flat-square" alt="English"></a>
+  <a href="https://aipmandy.github.io/how-to-earn-usd-from-china/"><img src="https://img.shields.io/badge/在线阅读-完整网站-172532?style=flat-square" alt="在线阅读"></a>
+  <a href="https://github.com/AIPMAndy/how-to-earn-usd-from-china/actions/workflows/check.yml"><img src="https://github.com/AIPMAndy/how-to-earn-usd-from-china/actions/workflows/check.yml/badge.svg" alt="内容检查状态"></a>
+  <a href="https://github.com/AIPMAndy/how-to-earn-usd-from-china/stargazers"><img src="https://img.shields.io/github/stars/AIPMAndy/how-to-earn-usd-from-china?style=flat-square" alt="GitHub stars"></a>
+  <a href="README_EN.md"><img src="https://img.shields.io/badge/English-README-AD8756?style=flat-square" alt="English README"></a>
 </p>
 
-**一个中国人，一台电脑，怎样从第一笔真实美元订单做成长期海外生意。**
+<p align="center">
+<strong>一个中国人，一台电脑，怎样从第一笔真实美元订单做成长期生意</strong>
+</p>
 
-**[🌐 在线网站](https://aipmandy.github.io/how-to-earn-usd-from-china/) ｜ [📖 十章完整攻略](GUIDE.md) ｜ [💵 收款与税务](docs/02-payment-tax.md) ｜ [📨 英文获客模板](examples/outreach-messages.md) ｜ [English](README_EN.md)**
+**[🌐 在线阅读](https://aipmandy.github.io/how-to-earn-usd-from-china/)** ｜ **[📖 全文指南](GUIDE.md)** ｜ **[💵 收款与税务](docs/02-payment-tax.md)** ｜ **[📨 英文获客模板](examples/outreach-messages.md)** ｜ **[English](README_EN.md)**
 
-我做过多年 AI 产品，现在也在做职业咨询、内容和海外业务。国内很多人有专业能力，但没想过怎么把这些经验卖给海外客户。这份指南直接回答五个问题。
+我做过多年 AI 产品，目前也在做职业咨询、内容和海外业务。国内有很多人具备专业经验，却不知道怎样把这项能力卖给海外客户。我把起步时最容易卡住的环节整理成一份指南。
 
-**做什么生意，在哪里找客户，怎么报价，怎么交付，钱怎么合法收回来。**
+这份攻略直接回答五个问题。**卖什么、客户在哪、怎么报价、怎样交付、钱怎么合法收回来。**
 
-我更推荐先用现有经验交付专业服务，跑通真实订单，再考虑数字产品、SaaS 和扩大团队。这里没有保证收入的项目，也不提供虚假地址、代注册或规避审核的方案。
+我认为更适合普通人的顺序是先用现有能力提供服务，拿到真实订单，再考虑内容、产品、SaaS 和团队扩张。平台收入、跨境收款规则会变化，关键事实在文末保留官方出处。
 
-## 第一次看，直接选你的问题
+> **读完你能拿走的东西** 8 条业务方向、服务与报价表、客户触达示例、交付清单、收款凭证清单，以及官方资料索引。所有价格和订单情景示例都会明确标注，不提供收入保证。
 
-| 你最想解决的事 | 直接看 |
+## v2 完整执行版 — 读完直接知道下一步
+
+**我已经把原先的十章扩展为十六章。** 新增按身份选择美元收入路线、第一单七步成交、30 天逐日执行表、交付文件清单，以及八类失败情形。价格与日期仅为演示，成交不保证。
+
+| 你的问题 | 直接看答案 |
 |---|---|
-| 不知道适合做什么 | [八条海外生意路线](docs/01-business-paths.md) |
-| 想找到第一位海外客户 | [客户渠道、报价与交付](docs/03-customers-and-delivery.md) |
-| 需要英文商务材料 | [英文邮件与报价示例](examples/outreach-messages.md) |
-| 正准备谈第一单 | [第一单交付清单](templates/first-order-checklist.md) |
-| 不知道美元怎么合法收 | [收款、外汇与税务](docs/02-payment-tax.md) |
-| 想准备银行和税务材料 | [收款材料清单](templates/payment-records.md) |
-| 需要核实规则真假 | [官方资料与核验日期](docs/SOURCES.md) |
-| 想从头读到尾 | [10 章正文 GUIDE.md](GUIDE.md) |
+| 我应该卖什么、现在适合哪条路 | [按职业经验选择路线](docs/choose-your-path.md) |
+| 第一笔美元订单具体怎么跑通 | [七步成交与交付](docs/first-dollar.md) |
+| 每天需要做什么 | [30 天逐日行动安排](docs/30-day-plan.md) |
+| 报价、合同、收款需保留什么 | [五份交付与资金文件](docs/deliver-payment.md) |
+| 哪些做法容易踩坑 | [八类常见失败情形](docs/avoid-pitfalls.md) |
 
-## 八条可行的业务路线
+**[🌐 体验玻璃质感新版网站](https://aipmandy.github.io/how-to-earn-usd-from-china/)** · **[📖 在线阅读完整 16 章](https://aipmandy.github.io/how-to-earn-usd-from-china/article.html)**
 
-| 路线 | 适合谁 | 可以交付什么 |
+## 从这里开始
+
+| 你现在最需要什么 | 直接看哪里 | 读完能解决什么 |
 |---|---|---|
-| 专业咨询 | 产品、求职辅导、行业专家 | 一次诊断与建议 |
-| 开发与 AI 自动化 | 开发者、AI 产品人员 | 一个可运行的业务工作流 |
-| 设计与视频 | 设计师、剪辑师 | 品牌物料、网页或视频 |
-| 内容与增长 | 运营、SEO 从业者 | 内容、诊断和增长服务 |
-| 中国供应链协助 | 外贸、采购、制造 | 寻源、样品和质量协助 |
-| 本地化 | 双语行业人士 | 软件与技术产品资料 |
-| 数字产品 | 有可复用知识的人 | 模板、资料库和课程 |
-| 小型 SaaS | 能长期维护产品的团队 | 持续服务的订阅软件 |
+| 还不知道做哪门生意 | [八条可选业务](docs/01-business-paths.md) | 按已有职业经验选择服务 |
+| 想获得第一位海外客户 | [客户与交付指南](docs/03-customers-and-delivery.md) | 从询价到交付的具体步骤 |
+| 需要可复制的英文沟通内容 | [英文私信与报价](examples/outreach-messages.md) | 联系客户、回复需求、确认范围 |
+| 正在谈第一笔项目 | [第一单交付清单](templates/first-order-checklist.md) | 避免报价、验收、付款遗漏 |
+| 不清楚美元怎么收 | [收款与税务](docs/02-payment-tax.md) | 区分个人、企业、平台与银行路径 |
+| 需要留存交易证明 | [收款材料清单](templates/payment-records.md) | 整理合同、付款、结汇与申报凭证 |
+| 想核验平台或政策 | [官方来源索引](docs/SOURCES.md) | 直接查支持地区、外汇和税务原文 |
+| 想先看结论 | [全文 10 章](GUIDE.md) | 理解从起步到长期业务的完整路线 |
 
-![八条美元收入路线](assets/02-八种模式.svg)
+## 八条美元收入路线
 
-## 我建议的顺序
+| 路线 | 更适合谁 | 起步可交付成果 |
+|---|---|---|
+| 专业咨询 | 产品、职业顾问、行业专家 | 一次诊断与具体改进建议 |
+| AI 自动化与开发 | AI 产品、程序员、小团队 | 一个能运行、能验收的业务流程 |
+| 设计与视频 | 设计师、剪辑师 | 一套视觉稿、落地页或视频 |
+| 内容与增长 | 运营、SEO 从业者 | 内容诊断、计划与实际交付 |
+| 中国供应链协助 | 制造、外贸、采购人员 | 供应商资料、样品与跟单支持 |
+| 行业本地化 | 双语且懂行业的人 | 产品文档、软件和技术资料 |
+| 数字产品 | 有可复用专业知识的人 | 模板、资料包、课程、小工具 |
+| 小型 SaaS | 能长期维护产品的团队 | 可持续服务的软件和订阅产品 |
 
-先有明确客户，再确认服务边界、报价与验收。第一笔订单完整走完合同、交付、付款和依法办理的结算手续。遇到同样的问题重复出现，再逐步做成课程、工具或订阅产品。
+![八种美元收入方向](assets/02-八种模式.svg)
 
-**美国客户付美元，并不意味着中国居民自动取得境外来源所得。个人每年等值五万美元的结售汇便利化额度也不是所有合法收入的绝对上限。** 具体要按交易性质、提供服务地点、个人或企业主体和官方要求处理。原始来源都放在[资料索引](docs/SOURCES.md)。
+## 我为什么建议先接服务，再做产品
 
-## 欢迎补充真实案例
+刚开始通常不缺工具，缺的是明确需求、真实客户和能收到的款项。先用自己熟悉的专业能力完成小订单，往后更容易判断哪些交付值得做成课程、工具或订阅业务。没有订单时，先解决客户和报价问题；有订单以后，再解决复购和规模化。
 
-[提交案例、纠正过期规则或建议新章节](https://github.com/AIPMAndy/how-to-earn-usd-from-china/issues/new/choose) · [贡献说明](CONTRIBUTING.md) · [更新记录](CHANGELOG.md)
+海外客户付美元，不意味着你可以忽略中国的外汇、税务、合同和个人信息保护要求。**支付工具支持地区、平台提现资格和结汇材料，请以真实主体和官方最新规则为准。**
 
-如果内容对你有用，欢迎 Star 收藏，或者把这份攻略分享给正在研究出海的朋友。项目会优先根据真实用户问题补充资料，而不是追求没有依据的收入数字。
+## 下载、引用与参与贡献
 
-请不要在公开 Issue 上传银行流水、客户联系方式、身份证、合同原件和其他隐私数据。目前尚未选定商业再利用许可证，详见 [LICENSE-CHOICES.md](LICENSE-CHOICES.md)。
+- [贡献说明](CONTRIBUTING.md) · [提交实际案例](https://github.com/AIPMAndy/how-to-earn-usd-from-china/issues/new/choose) · [纠正过期政策](https://github.com/AIPMAndy/how-to-earn-usd-from-china/issues/new/choose)
+- [更新记录](CHANGELOG.md) · [常见问题](docs/FAQ.md) · [证据与来源](docs/SOURCES.md)
+- 分享这份攻略，可以直接转发[网站](https://aipmandy.github.io/how-to-earn-usd-from-china/)或 GitHub 仓库。如果它帮你省去了查资料的时间，欢迎点 **Star**，也欢迎补充经授权、可核实的真实经验。
 
-**[可直接发布的项目介绍与传播文案](docs/PROMOTE.md) · [后续更新路线](docs/ROADMAP.md)**
+请勿在 Issue 里公开客户姓名、订单号、银行账户、公司内部数据及隐私信息。案例中的客户、金额和截图只在得到许可后使用。项目目前暂未选择商业再利用许可，相关说明见 [LICENSE-CHOICES.md](LICENSE-CHOICES.md)。
 
 ## 关于作者
 
-**AI 酋长 Andy** · 前腾讯、百度 AI 产品从业者 · AI 产品、职业成长与出海实践
+**AI 酋长 Andy**，曾在腾讯、百度从事 AI 产品相关工作，持续研究 AI 产品、职业成长和海外业务。
 
-[个人网站 metaver.vip](https://metaver.vip/) · [职业咨询与 AI 陪跑](https://metaver.vip/services) · 微信 **AIPMAndy**
+个人网站 [metaver.vip](https://metaver.vip/) · [咨询与 AI 陪跑](https://metaver.vip/services) · 微信 **AIPMAndy**
 
-<sub>信息核验基准 2026-10-18。平台和法规可能变化，请使用前查官方最新版本。</sub>
+<sub>维护时间 2026-10-18。平台政策和支持范围会变动，重要决定前请到官方页面重新确认。</sub>
