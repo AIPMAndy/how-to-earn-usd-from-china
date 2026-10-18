@@ -43,3 +43,25 @@ if errors:
     print('FAIL\n'+'\n'.join(errors))
     sys.exit(1)
 print('PASS — 10 chapters, 8 business paths, site links, 4 SVG infographics, payments and tax materials')
+
+
+# Growth metadata, sharing, contributor templates and SEO checks
+from xml.etree import ElementTree as ET
+for path in ['robots.txt','sitemap.xml','404.html','docs/START-HERE.md','templates/first-order-checklist.md','templates/payment-records.md','templates/service-quote.md','.github/ISSUE_TEMPLATE/config.yml','.github/ISSUE_TEMPLATE/real-case.yml','.github/ISSUE_TEMPLATE/fact-check.yml','.github/ISSUE_TEMPLATE/idea.yml']:
+ if not (ROOT/path).is_file():errors.append('missing contributor/SEO resource '+path)
+for f in files:
+ if not f.is_file():continue
+ html=BeautifulSoup(f.read_text(encoding='utf8'),'html.parser')
+ if not html.select_one('link[rel="canonical"]'):errors.append('missing canonical '+f.name)
+ if not html.select_one('meta[property="og:title"]'):errors.append('missing sharing metadata '+f.name)
+ if not html.select_one('script[type="application/ld+json"]'):errors.append('missing structured data '+f.name)
+try:
+ if len(ET.parse(ROOT/'sitemap.xml').getroot())<7:errors.append('sitemap is incomplete')
+except Exception as e:errors.append('sitemap XML error '+str(e))
+for path in ['README.md','README_EN.md']:
+ text=(ROOT/path).read_text(encoding='utf8')
+ for link in ['docs/SOURCES.md','templates/first-order-checklist.md']:
+  if link not in text:errors.append(path+' lacks '+link)
+if errors:
+ print('FAILED extended checks',*errors,sep='\n - ');sys.exit(1)
+print('PASS — SEO, share metadata and contributor resources')
