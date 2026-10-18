@@ -21,7 +21,7 @@ for file in pages:
             continue
         local = unquote(urlparse(value).path)
         target = (file.parent / local).resolve()
-        if not target.is_relative_to(ROOT.resolve()) or not target.is_file():
+        if not target.is_relative_to(ROOT.resolve()) or not (target.is_file() or target.is_dir()):
             errors.append(f'{file.name} invalid local resource {value}')
     if file.name=='index.html':
         for term in ['article.html','assets/site.css','data-contact','AIPMAndy','metaver.vip','中国人赚美金']:
