@@ -29,4 +29,4 @@ https://aipmandy.github.io/how-to-earn-usd-from-china/
 
 收款、外汇和税务内容仅为公开信息整理。支付工具的支持地区、提现资格和税务处理会变化，实际办理以真实主体、交易性质与主管机构最新规则为准。本项目不提供收入保证，也不接受未经授权的客户资料与成交截图。
 
-**公开不等于授权商业再使用**。正式许可尚未确定，具体见 [LICENSE-CHOICES.md](LICENSE-CHOICES.md)。
+**授权**：正文与信息图采用 CC BY-NC 4.0，转载需署名且不得用于商业目的；代码采用 MIT。商业授权与边界说明见 [LICENSING.md](LICENSING.md)。

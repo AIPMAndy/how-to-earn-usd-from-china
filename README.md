@@ -77,7 +77,7 @@
 - [更新记录](CHANGELOG.md) · [常见问题](docs/FAQ.md) · [证据与来源](docs/SOURCES.md)
 - 分享这份攻略，可以直接转发[网站](https://aipmandy.github.io/how-to-earn-usd-from-china/)或 GitHub 仓库。如果它帮你省去了查资料的时间，欢迎点 **Star**，也欢迎补充经授权、可核实的真实经验。
 
-请勿在 Issue 里公开客户姓名、订单号、银行账户、公司内部数据及隐私信息。案例中的客户、金额和截图只在得到许可后使用。项目目前暂未选择商业再利用许可，相关说明见 [LICENSE-CHOICES.md](LICENSE-CHOICES.md)。
+请勿在 Issue 里公开客户姓名、订单号、银行账户、公司内部数据及隐私信息。案例中的客户、金额和截图只在得到许可后使用。正文与信息图采用 [CC BY-NC 4.0](LICENSE-CONTENT)（署名、非商业），代码采用 [MIT](LICENSE)。转载与商业授权说明见 [LICENSING.md](LICENSING.md)。
 
 ## 关于作者
 

@@ -1,5 +1,11 @@
 # 更新记录
 
+## v2.2 — 2026-10-19 · 许可证与 CI 运行时
+
+- 确定授权方式：正文、网页与信息图采用 CC BY-NC 4.0（署名、非商业），代码采用 MIT。新增 `LICENSE`、`LICENSE-CONTENT`、`LICENSING.md`，替换原先「待确认」的 `LICENSE-CHOICES.md`。
+- README、README_EN、CONTRIBUTING、RELEASE-NOTES 同步授权表述。
+- GitHub Actions 升级到 Node 24 基线（checkout v7、setup-python v7、configure-pages v6、upload-pages-artifact v5、deploy-pages v5），消除部署日志中的运行时弃用告警。
+
 ## v2.1 — 2026-10-19 · 配套资源与工程质量
 
 **修复**
