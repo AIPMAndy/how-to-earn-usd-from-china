@@ -6,14 +6,20 @@ GitHub Pages 采用 `main` 分支的 GitHub Actions 部署。网页 https://aipm
 
 每次更新后检查 Check content and links、Publish GitHub Pages 是否成功，分别测试网站首页、文章、收款税务页、SVG 图和微信按钮。
 
-## 需本人在 GitHub 页面完成的元数据
+## 仓库元数据
 
-- 仓库 Description 建议填写 `中国人赚美金保姆级攻略｜8种海外收入路线、获客、报价、交付、合规收款与税务`
-- Website 填写 `https://aipmandy.github.io/how-to-earn-usd-from-china/`
-- Topics 建议 `china`、`freelancing`、`side-hustle`、`remote-work`、`cross-border`、`ai-tools`、`payments`、`chinese-guide`。
-- Social preview 直接上传仓库里的 `assets/social-preview.png`（1200×630，已按平台推荐尺寸生成），在 Settings → General 的 Social preview 上传。
-- 如需要社区讨论，可在 Settings → Features 启用 Discussions。Issue 模板已准备。
-- 许可证已确定：内容 CC BY-NC 4.0、代码 MIT。仓库的 license 标识由 GitHub 依据 `LICENSE` 自动识别，无需手动设置。
+以下三项已通过 GitHub API 设置完成，改动时可用 `gh api -X PATCH repos/AIPMAndy/how-to-earn-usd-from-china` 更新：
+
+- Description：`中国人赚美金保姆级攻略｜8 种海外收入路线、获客、报价、交付、合规收款与税务`
+- Website：`https://aipmandy.github.io/how-to-earn-usd-from-china/`
+- Topics：`china`、`freelancing`、`side-hustle`、`remote-work`、`cross-border`、`ai-tools`、`payments`、`chinese-guide`
+
+## 仍需在 GitHub 页面手动完成
+
+- **Social preview**：在 Settings → General 上传 `assets/social-preview.png`（1200×630，已按平台推荐尺寸生成）。这一步无法通过 API 完成，不设置则仓库卡片与分享链接没有缩略图。
+- **Discussions**：如需要社区讨论，在 Settings → Features 启用。Issue 模板已准备，启用前先确认有人力维护。
+
+许可证已确定：内容 CC BY-NC 4.0、代码 MIT。GitHub 会依据 `LICENSE` 自动识别为 MIT，无需手动设置；注意不要在 `LICENSE` 正文后追加说明，否则会退化成 `Other / NOASSERTION`（`check_site.py` 已对此断言）。
 
 ## 本地检查流程
 
