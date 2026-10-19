@@ -257,6 +257,9 @@ for img in re.findall(r"!\[[^\]]*\]\(([^)\s]+)\)", readme):
 license_text = (ROOT / "LICENSE").read_text(encoding="utf8")
 if "MIT License" not in license_text:
     fail("LICENSE 不是 MIT 文本")
+elif not license_text.strip().endswith("SOFTWARE.") or "\n---" in license_text:
+    # 在许可证正文后追加说明会破坏 GitHub 的许可证指纹识别（显示为 Other/NOASSERTION）
+    fail("LICENSE 末尾有附加内容，会破坏 GitHub 的 MIT 识别；适用范围说明请放到 LICENSING.md")
 else:
     ok()
 
