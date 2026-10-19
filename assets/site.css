@@ -37,3 +37,21 @@
 @media(max-width:940px){.hero-inner{gap:27px}.glass-section .glass-list{grid-template-columns:1fr 1fr}.day-strip{grid-template-columns:1fr 1fr}}
 @media(max-width:680px){.hero-inner{grid-template-columns:1fr;padding:62px 0 72px}.hero-glass{padding:22px}.glass-section .glass-list{grid-template-columns:1fr}.decision-grid,.cta-belt{grid-template-columns:1fr}.decision-controls,.decision-answer{padding:24px}.day-strip{grid-template-columns:1fr 1fr;gap:9px}.day-strip .day{min-height:165px;padding:20px 15px}.day-strip .day p{font-size:12px}.cta-belt{padding:25px 20px}.cta-belt .actions{justify-content:flex-start}.articlepage table{min-width:620px}.articlepage .table-wrap{overflow-x:auto}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+
+/* doc figures — inline infographics inside standalone topic pages */
+.doc-figure{margin:36px 0;text-align:center}
+.doc-figure img{display:block;width:100%;max-width:720px;height:auto;margin:0 auto;border:1px solid #e2dbd1;border-radius:12px;background:#fff}
+.doc-figure figcaption{font-size:13px;color:#6d7680;margin-top:13px;letter-spacing:.02em}
+@media(max-width:680px){.doc-figure{margin:26px 0}.doc-figure figcaption{font-size:12px}}
+
+/* standalone topic pages (previously duplicated inline in 5 files) */
+.simple-head{margin:0;background:linear-gradient(120deg,#111d2b,#2a2a30);color:#fff;padding:54px 0 64px}.simple-head .eyebrow{color:#d9b98a}.simple-head h1{font:600 clamp(30px,5vw,55px)/1.3 'Songti SC',serif;margin:18px 0;color:#f6ebdc}.page-body{max-width:850px;margin:55px auto 90px;background:white;padding:48px;line-height:1.95;box-shadow:0 15px 60px #1019250a}.page-body h2{font:600 31px/1.45 'Songti SC',serif;margin-top:42px}.page-body h3{font-size:21px}.page-body p,.page-body li{color:#374350;font-size:16px}.page-body .table-wrap{overflow-x:auto}.page-body table{width:100%;min-width:600px;border-collapse:collapse;font-size:14px}.page-body td,.page-body th{border-bottom:1px solid #ddd7cf;padding:11px;vertical-align:top;text-align:left}.page-body th{background:#f6f3ec}.page-body a{color:#8a653e;text-decoration:underline;text-underline-offset:4px}.page-body strong{color:#101a24}@media(max-width:680px){.page-body{margin:0 auto 60px;padding:25px 19px}.page-body h2{font-size:25px}}
+
+/* task checklist rendered from Markdown "- [ ]" items */
+.page-body ul.checklist{list-style:none;padding-left:0;margin:20px 0}
+.page-body ul.checklist li{position:relative;padding-left:30px;margin:9px 0;color:#374350;font-size:16px;line-height:1.75}
+.page-body ul.checklist li:before{content:'';position:absolute;left:0;top:5px;width:15px;height:15px;border:1.5px solid #b6a284;border-radius:3px;background:#fff}
+.page-body ul.checklist li.done:before{background:#c9a875;border-color:#c9a875}
+.page-body ul.checklist li.done{color:#7b8288;text-decoration:line-through}
+.page-body hr{border:0;border-top:1px solid #e2dbd1;margin:38px 0}
+.page-body code{background:#f3efe7;padding:2px 6px;border-radius:4px;font-size:.92em;color:#6b4f2c}
