@@ -12,5 +12,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install beautifulsoup4
-      - run: python scripts/check_site.py
+          cache: pip
+      - run: pip install -r requirements.txt
+      # 模板页面由 Markdown 生成，先确认仓库里的 HTML 没有落后于源文件
+      - name: Verify generated pages are up to date
+        run: python scripts/build_docs.py --check
+      # 结构、链接、渲染残留、站点地图、文档口径
+      - name: Validate site
+        run: python scripts/check_site.py

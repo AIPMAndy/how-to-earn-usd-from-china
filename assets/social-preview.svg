@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="中国人赚美金保姆级攻略：8 条海外收入路线、获客、报价、交付与合规收款">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0b121c"/>
+      <stop offset=".62" stop-color="#141f2b"/>
+      <stop offset="1" stop-color="#2b2f31"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#ad8957"/>
+      <stop offset=".55" stop-color="#f4d6a7"/>
+      <stop offset="1" stop-color="#ac895c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1050" cy="120" r="210" fill="#c4a170" opacity=".07"/>
+  <circle cx="1050" cy="120" r="128" fill="none" stroke="#e0c196" opacity=".18"/>
+  <path d="M760 630 Q940 540 1130 90" fill="none" stroke="#ba9869" stroke-width="2" opacity=".28"/>
+  <path d="M700 640 Q900 560 1120 120" fill="none" stroke="#ba9869" stroke-width="4" opacity=".7"/>
+
+  <text x="76" y="104" fill="#c2a27b" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="20" letter-spacing="5">AI / GLOBAL INCOME / CHINA</text>
+
+  <text x="76" y="248" fill="#fff8ee" font-family="'Songti SC','Noto Serif CJK SC',serif" font-size="86">中国人赚美金</text>
+  <text x="76" y="356" fill="url(#gold)" font-family="'Songti SC','Noto Serif CJK SC',serif" font-size="92">保姆级攻略</text>
+
+  <line x1="78" y1="398" x2="196" y2="398" stroke="#d9b783" stroke-width="4"/>
+
+  <text x="76" y="462" fill="#e7ddcf" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="30">8 条收入路线 · 获客报价 · 交付验收 · 合规收款</text>
+  <text x="76" y="508" fill="#a9b0b6" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="24">16 章全文 · 30 天行动表 · 英文沟通模板 · 官方来源索引</text>
+
+  <text x="76" y="572" fill="#8e969d" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="20">AI 酋长 Andy　·　aipmandy.github.io/how-to-earn-usd-from-china</text>
+</svg>
