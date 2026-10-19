@@ -50,7 +50,7 @@ def pages() -> list[Path]:
 REQUIRED = [
     "index.html", "article.html", "404.html", "robots.txt", "sitemap.xml",
     "README.md", "README_EN.md", "GUIDE.md", "CONTRIBUTING.md", "SECURITY.md",
-    "CHANGELOG.md", "PUBLISH.md", "LICENSE-CHOICES.md",
+    "CHANGELOG.md", "PUBLISH.md", "LICENSING.md", "LICENSE", "LICENSE-CONTENT",
     "assets/site.css", "assets/site.js", "assets/cover.svg", "assets/social-preview.png",
     "assets/01-business-loop.svg", "assets/02-eight-routes.svg",
     "assets/03-money-flow.svg", "assets/04-long-term.svg",
@@ -250,6 +250,48 @@ for img in re.findall(r"!\[[^\]]*\]\(([^)\s]+)\)", readme):
         continue
     if not (ROOT / unquote(img)).is_file():
         fail(f"README.md 引用了不存在的图片 {img}")
+    else:
+        ok()
+
+# ── 6b. 许可证一致性 ─────────────────────────────────────────────────────
+license_text = (ROOT / "LICENSE").read_text(encoding="utf8")
+if "MIT License" not in license_text:
+    fail("LICENSE 不是 MIT 文本")
+else:
+    ok()
+
+content_license = (ROOT / "LICENSE-CONTENT").read_text(encoding="utf8")
+for token in ("CC BY-NC 4.0", "by-nc/4.0/legalcode"):
+    if token not in content_license:
+        fail(f"LICENSE-CONTENT 缺少「{token}」")
+    else:
+        ok()
+
+for rel, needed in {
+    "README.md": ["LICENSING.md", "LICENSE-CONTENT"],
+    "README_EN.md": ["LICENSING.md", "LICENSE"],
+    "LICENSING.md": ["CC BY-NC 4.0", "MIT"],
+}.items():
+    text = (ROOT / rel).read_text(encoding="utf8")
+    for token in needed:
+        if token not in text:
+            fail(f"{rel} 未提及授权信息 {token}")
+        else:
+            ok()
+
+# 已废弃的旧文件名不应再被引用。CHANGELOG 记录历史、本脚本自身包含该字符串，故跳过。
+DEPRECATED = "LICENSE-" + "CHOICES"
+SKIP = {"CHANGELOG.md", "scripts/check_site.py"}
+for path in ROOT.rglob("*"):
+    if not path.is_file() or ".git" in path.parts:
+        continue
+    if path.suffix not in {".md", ".html", ".py", ".yml", ".txt"}:
+        continue
+    rel = path.relative_to(ROOT).as_posix()
+    if rel in SKIP:
+        continue
+    if DEPRECATED in path.read_text(encoding="utf8", errors="ignore"):
+        fail(f"{rel} 仍引用已删除的 {DEPRECATED}.md")
     else:
         ok()
 

@@ -13,4 +13,4 @@
 
 **不要提交** 客户私人联系方式、银行流水、身份证、未经授权的合同、假成交截图、绕过身份审核或外汇监管的办法。不要把模拟金额写成真实收入，也不要承诺收益。
 
-网站维护者提交前请运行 `python scripts/check_site.py` 做完整校验。如果改到 `templates/*.md` 或 `docs/START-HERE.md`，先运行 `python scripts/build_docs.py` 重新生成对应网页——这几页的 HTML 由 Markdown 生成，不要手改。正式许可方式尚未确定，贡献前请看 [许可说明](LICENSE-CHOICES.md)。
+网站维护者提交前请运行 `python scripts/check_site.py` 做完整校验。如果改到 `templates/*.md` 或 `docs/START-HERE.md`，先运行 `python scripts/build_docs.py` 重新生成对应网页——这几页的 HTML 由 Markdown 生成，不要手改。提交即表示同意以仓库现有许可发布你的贡献：正文与信息图按 CC BY-NC 4.0，代码按 MIT，详见 [LICENSING.md](LICENSING.md)。

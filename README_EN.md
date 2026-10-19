@@ -34,6 +34,10 @@ This guide focuses on five concrete questions: **what to sell, where to find cli
 
 Supported payment methods depend on the **actual place of residence, entity, bank, customer and transaction**. A VPN or foreign IP address is not proof of eligible residence. Do not use another person's identity or split payments to bypass verification. The mainland China personal USD 50,000 annual simplified FX quota is not a universal cap on legitimate income; business receipts may follow separate rules. The place where services are actually performed also matters for tax classification. Check current official rules and qualified advisers before acting.
 
+## License
+
+Split licensing: the written guide, web pages and figures are under [CC BY-NC 4.0](LICENSE-CONTENT) (attribution required, no commercial use); the build scripts, stylesheets and CI configuration are under [MIT](LICENSE). See [LICENSING.md](LICENSING.md) for the boundary between the two and how to request a commercial license.
+
 ## Contribute
 
 Please use our [issue templates](https://github.com/AIPMAndy/how-to-earn-usd-from-china/issues/new/choose) to propose a verified platform change, share an authorized case, or fix an error. We don't accept personal banking records, unredacted customer information, fabricated screenshots or guaranteed-income claims.

@@ -13,7 +13,7 @@ GitHub Pages 采用 `main` 分支的 GitHub Actions 部署。网页 https://aipm
 - Topics 建议 `china`、`freelancing`、`side-hustle`、`remote-work`、`cross-border`、`ai-tools`、`payments`、`chinese-guide`。
 - Social preview 直接上传仓库里的 `assets/social-preview.png`（1200×630，已按平台推荐尺寸生成），在 Settings → General 的 Social preview 上传。
 - 如需要社区讨论，可在 Settings → Features 启用 Discussions。Issue 模板已准备。
-- 作者未明确选择内容和代码许可证前，不要擅自添加 MIT 或 CC BY 标识。
+- 许可证已确定：内容 CC BY-NC 4.0、代码 MIT。仓库的 license 标识由 GitHub 依据 `LICENSE` 自动识别，无需手动设置。
 
 ## 本地检查流程
 
