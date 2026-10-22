@@ -79,10 +79,24 @@
 
 请勿在 Issue 里公开客户姓名、订单号、银行账户、公司内部数据及隐私信息。案例中的客户、金额和截图只在得到许可后使用。正文与信息图采用 [CC BY-NC 4.0](LICENSE-CONTENT)（署名、非商业），代码采用 [MIT](LICENSE)。转载与商业授权说明见 [LICENSING.md](LICENSING.md)。
 
-## 关于作者
+<!-- andy-author-card:start -->
+## 作者 / About the author
 
-**AI 酋长 Andy**，曾在腾讯、百度从事 AI 产品相关工作，持续研究 AI 产品、职业成长和海外业务。
+**AI 酋长 Andy（Andy Liu，GitHub/X @AIPMAndy）**：前腾讯/百度 AI 产品专家，大模型独角兽前 VP，现专注 AI + 产品方法论创业。
 
-个人网站 [metaver.vip](https://metaver.vip/) · [咨询与 AI 陪跑](https://metaver.vip/services) · 微信 **AIPMAndy**
+可以找我聊求职咨询、AI 增长和副业陪跑，服务范围和费用先沟通确认。详见 [咨询与 AI 陪跑](https://metaver.vip/services)。
+
+微信 `AIPMAndy`（备注「赚美金」）· [X @AIPMAndy](https://x.com/AIPMAndy) · [Telegram @AIPMAndy](https://t.me/AIPMAndy) · [个人官网 metaver.vip](https://metaver.vip/) · [Grok Bot 中文攻略](https://aipmandy.github.io/grok-bot-handbook/)
+
+*AI Chief Andy (Andy Liu, @AIPMAndy on GitHub and X) is a former Tencent and Baidu AI product expert and former VP at an LLM unicorn, now a serial entrepreneur focused on AI and product methodology.*
+
+### 作者的其他项目
+
+- [一个人靠 AI 赚钱](https://github.com/AIPMAndy/one-person-ai-income-guide)：验证需求、第一笔收款、交付与复购，附 30 天计划
+- [Grok Bot 中文攻略](https://github.com/AIPMAndy/grok-bot-handbook)：Grok Bot / AI Agent 中文教程，26 章加 40 套任务指令
+- [普通人跳槽涨薪指南](https://github.com/AIPMAndy/how-to-job-hop-and-raise-salary)：跳槽涨薪全流程：选岗、简历、面试、谈薪
+- [FreeToken](https://github.com/AIPMAndy/FreeToken)：免费 AI API、免费大模型 API 额度合集
+
+<!-- andy-author-card:end -->
 
 <sub>维护时间 2026-10-18。平台政策和支持范围会变动，重要决定前请到官方页面重新确认。</sub>
