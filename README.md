@@ -96,6 +96,7 @@
 - [Grok Bot 中文攻略](https://github.com/AIPMAndy/grok-bot-handbook)：Grok Bot / AI Agent 中文教程，26 章加 40 套任务指令
 - [普通人跳槽涨薪指南](https://github.com/AIPMAndy/how-to-job-hop-and-raise-salary)：跳槽涨薪全流程：选岗、简历、面试、谈薪
 - [FreeToken](https://github.com/AIPMAndy/FreeToken)：免费 AI API、免费大模型 API 额度合集
+- [GitHub / X / Threads / ChatGPT 赚钱实战指南](https://github.com/AIPMAndy/github-income-handbook)：同系列四份免费教程：[GitHub 赚钱](https://aipmandy.github.io/github-income-handbook/) · [X 赚钱](https://aipmandy.github.io/x-income-handbook/) · [Threads 赚钱](https://aipmandy.github.io/threads-income-handbook/) · [ChatGPT 赚钱](https://aipmandy.github.io/chatgpt-income-handbook/)
 
 <!-- andy-author-card:end -->
 
