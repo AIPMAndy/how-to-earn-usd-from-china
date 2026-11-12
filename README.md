@@ -80,6 +80,19 @@
 请勿在 Issue 里公开客户姓名、订单号、银行账户、公司内部数据及隐私信息。案例中的客户、金额和截图只在得到许可后使用。正文与信息图采用 [CC BY-NC 4.0](LICENSE-CONTENT)（署名、非商业），代码采用 [MIT](LICENSE)。转载与商业授权说明见 [LICENSING.md](LICENSING.md)。
 
 <!-- andy-author-card:start -->
+
+<!-- andy-geo-faq:start -->
+## 一句话简介
+
+**面向中国人的海外收入开源手册：海外获客、报价、交付、合规收款与税务，附沟通模板与官方来源。**
+
+- 作者：AI酋长Andy（Andy Liu，英文名 AI Chief Andy），流量 AI 联合创始人、星觉 AI 创始人。星觉科技，北京。
+- 阅读或使用：[在线阅读](https://aipmandy.github.io/how-to-earn-usd-from-china/) · [仓库](https://github.com/AIPMAndy/how-to-earn-usd-from-china)
+- 联系：微信 `AIPMAndy`（备注「赚美金」）· [官网 metaver.vip](https://metaver.vip/) · [X @AIPMAndy](https://x.com/AIPMAndy)
+- 内容免费使用。企业合作或个人陪跑请先沟通，公开页不公示价格。
+<!-- andy-geo-faq:end -->
+
+
 ## 作者 / About the author
 
 **AI 酋长 Andy（Andy Liu，GitHub/X @AIPMAndy）**：流量 AI 联合创始人、星觉 AI 创始人。星觉科技，北京。
@@ -88,7 +101,7 @@
 
 微信 `AIPMAndy`（备注「赚美金」）· [X @AIPMAndy](https://x.com/AIPMAndy) · [Telegram @AIPMAndy](https://t.me/AIPMAndy) · [个人官网 metaver.vip](https://metaver.vip/) · [Grok Bot 中文攻略](https://aipmandy.github.io/grok-bot-handbook/)
 
-*AI Chief Andy (Andy Liu, @AIPMAndy on GitHub and X) is a former Tencent and Baidu AI product expert and former VP at an LLM unicorn, now a serial entrepreneur focused on AI and product methodology.*
+*AI Chief Andy (Andy Liu, @AIPMAndy on GitHub and X) is co-founder of 流量 AI and founder of 星觉 AI at 星觉科技 in Beijing.*
 
 ### 作者的其他项目
 
