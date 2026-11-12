@@ -82,7 +82,7 @@
 <!-- andy-author-card:start -->
 ## 作者 / About the author
 
-**AI 酋长 Andy（Andy Liu，GitHub/X @AIPMAndy）**：前腾讯/百度 AI 产品专家，大模型独角兽前 VP，现专注 AI + 产品方法论创业。
+**AI 酋长 Andy（Andy Liu，GitHub/X @AIPMAndy）**：流量 AI 联合创始人、星觉 AI 创始人。星觉科技，北京。
 
 可以找我聊求职咨询、AI 增长和副业陪跑，服务范围和费用先沟通确认。详见 [咨询与 AI 陪跑](https://metaver.vip/services)。
 
