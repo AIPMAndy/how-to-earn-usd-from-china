@@ -1,5 +1,16 @@
 # 中国人赚美金保姆级攻略
 
+<!-- andy-pdf-edition:start -->
+## 精美 PDF 电子书
+
+[**免费下载《中国人赚美金实战攻略》**](pdf/how-to-earn-usd-from-china-guide.pdf) · [直接下载 PDF](https://github.com/AIPMAndy/how-to-earn-usd-from-china/raw/refs/heads/main/pdf/how-to-earn-usd-from-china-guide.pdf)
+
+**42 页 · A5 手机阅读版 · 可点击目录 · 0.90 MB**  
+整理日期：2026-11-13。包含完整实操正文、案例、模板与原始来源；平台规则与价格沿用原资料的核查日期。
+
+**作者与服务（广告）**：AI 酋长 Andy · 个人微信 **AIPMAndy** · [个人官网](https://metaver.vip/) · [公司官网](https://www.a6no1.cn/)。免费教程可直接使用，咨询与合作自愿选择。
+<!-- andy-pdf-edition:end -->
+
 <p align="center"><img src="assets/cover.svg" alt="中国人赚美金保姆级攻略" width="100%"></p>
 
 <p align="center">

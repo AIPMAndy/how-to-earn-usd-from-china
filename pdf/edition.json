@@ -1,0 +1,29 @@
+{
+  "repo": "how-to-earn-usd-from-china",
+  "title": "中国人赚美金实战攻略",
+  "date": "2026-11-13",
+  "source_commit": "75308ac62403d4e713201c2d05999bcadaca3b40",
+  "pages": 42,
+  "sections": 7,
+  "source_files": [
+    "docs/START-HERE.md",
+    "GUIDE.md",
+    "docs/FAQ.md",
+    "examples/outreach-messages.md",
+    "templates/first-order-checklist.md",
+    "templates/payment-records.md",
+    "templates/service-quote.md"
+  ],
+  "website": "https://aipmandy.github.io/how-to-earn-usd-from-china/",
+  "bytes": 944069,
+  "sha256": "a418e10581022ba5474ebace7c629a2128cfad75daa762b8ced69bf3f3bca3dc",
+  "pdf_path": "pdf/how-to-earn-usd-from-china-guide.pdf",
+  "contacts": {
+    "personal_website": "https://metaver.vip/",
+    "company_website": "https://www.a6no1.cn/",
+    "wechat": "AIPMAndy",
+    "public_account": "AI 酋长 Andy"
+  },
+  "edition": "A5 · 黑白金实操系列 · PDF 2026.11",
+  "notes": "PDF编排日期不代表所有外部政策与价格的重新核验日期。源文件许可与案例标注继续适用。"
+}
