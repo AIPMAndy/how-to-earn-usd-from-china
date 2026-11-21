@@ -20,3 +20,9 @@ jobs:
       # 结构、链接、渲染残留、站点地图、文档口径
       - name: Validate site
         run: python scripts/check_site.py
+      - name: Validate calculator SEO and original PDF links
+        run: python tests/test_quote_meta.py
+      - name: Test quote maths and safe CSV in Node
+        run: |
+          node --check assets/quote.js
+          node --test tests/quote.test.cjs

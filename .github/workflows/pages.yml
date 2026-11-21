@@ -26,3 +26,5 @@ jobs:
           path: .
       - id: deployment
         uses: actions/deploy-pages@v5
+      - name: Verify live Pages bytes (HTML, JS, CSS, sitemap, PDF)
+        run: python scripts/verify_live.py
