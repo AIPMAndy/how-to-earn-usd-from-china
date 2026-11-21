@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101a23">
+<title>美元报价与净回款计算器｜中国人赚美金实战攻略｜AI 酋长 Andy</title>
+<meta name="description" content="免费离线估算海外服务报价：平台比例与固定手续费、履约成本、假设汇率、银行手续费、税前人民币净额和时薪。所有汇率和费用由用户输入，不抓取账户数据。">
+<link rel="canonical" href="https://aipmandy.github.io/how-to-earn-usd-from-china/quote.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="美元报价与净回款计算器｜AI 酋长 Andy">
+<meta property="og:description" content="自己输入假设，核对扣费后的美元和人民币税前净额；不包含所得税与汇率保证。">
+<meta property="og:url" content="https://aipmandy.github.io/how-to-earn-usd-from-china/quote.html">
+<meta property="og:image" content="https://aipmandy.github.io/how-to-earn-usd-from-china/assets/social-preview.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="assets/site.css">
+<link rel="stylesheet" href="assets/quote.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"美元报价与净回款估算器","description":"用户输入美元报价、手续费、直接成本、假设汇率和工时，计算税前参考净回款与时薪；没有实时费率或税收决策功能。","url":"https://aipmandy.github.io/how-to-earn-usd-from-china/quote.html","applicationCategory":"FinanceApplication","operatingSystem":"Any","inLanguage":"zh-CN","isAccessibleForFree":true,"author":{"@type":"Person","name":"AI 酋长 Andy","url":"https://metaver.vip/"},"publisher":{"@type":"Organization","name":"星觉科技","url":"https://www.a6no1.cn/"},"datePublished":"2026-11-22","dateModified":"2026-11-22"}</script>
+<script src="assets/quote.js" defer></script>
+</head>
+<body>
+<a class="skip-quote" href="#quote-main">跳到计算器</a>
+<nav class="navbar"><div class="container nav-inside">
+<a class="wordmark" href="./">AI 酋长 Andy <span>美元收入攻略</span></a>
+<div class="navlinks"><a href="./">返回主页</a><a href="article.html">完整指南</a><a href="docs/SOURCES.html">资料来源</a></div>
+</div></nav>
+<header class="quote-head"><div class="container">
+<p class="eyebrow">A REAL-WORLD ESTIMATE / LOCAL ONLY</p>
+<h1>美元报价与净回款计算器</h1>
+<p>拿到海外询价后，不只看报价。把手续费、直接履约成本、汇率假设、工时放在同一张表里，判断这单在当前假设下是否划算。</p>
+<p class="quote-meta">免费 · 纯浏览器计算 · 不收集订单或银行信息 · 页面更新：2026-11-22</p>
+</div></header>
+<main id="quote-main" class="container quote-layout">
+<section class="quote-paper" aria-labelledby="quote-input-title">
+<div class="quote-section-title"><div><span class="eyebrow">01 / INPUT ASSUMPTIONS</span><h2 id="quote-input-title">填写你的报价假设</h2></div><button id="demo-quote" class="quote-secondary" type="button">载入教学模拟</button></div>
+<p class="quote-hint">美元、人民币分开输入；百分比填 10 表示 10%。所有手续费与汇率请自行向真实收款渠道核对，空值不会自动当作 0。</p>
+<p id="sample-note" class="quote-demo" hidden>当前是完全虚构的教学模拟：500 美元报价、7 元人民币/美元是假设值，不是市场实时汇率或真实交易。</p>
+<form id="quote-form" novalidate>
+<div class="quote-grid">
+<label>美元报价（USD）<input required name="quote" type="number" min="0.01" max="10000000000" step="any" placeholder="请输入实际报价" inputmode="decimal"></label>
+<label>平台比例手续费（%）<input required name="percent" type="number" min="0" max="100" step="any" value="0" inputmode="decimal"></label>
+<label>平台/支付固定手续费（USD）<input required name="fixed" type="number" min="0" step="any" value="0" inputmode="decimal"></label>
+<label>直接履约成本（USD）<input required name="direct" type="number" min="0" step="any" value="0" inputmode="decimal"></label>
+<label>假设汇率（人民币 / 1 美元）<input required name="fx" type="number" min="0.00001" step="any" placeholder="自行填写报价汇率" inputmode="decimal"></label>
+<label>境内入账其他手续费（CNY）<input required name="bank" type="number" min="0" step="any" value="0" inputmode="decimal"></label>
+<label>预计履约工时（小时）<input required name="hours" type="number" min="0.01" step="any" placeholder="实际预计工时" inputmode="decimal"></label>
+<label>期望税前时薪（CNY）<input required name="target" type="number" min="0" step="any" value="0" inputmode="decimal"></label>
+</div>
+<button class="quote-primary" type="submit">重新计算</button>
+<p id="quote-error" role="alert" class="quote-error" aria-live="polite"></p>
+</form>
+</section>
+<section class="quote-result" aria-labelledby="quote-result-title">
+<span class="eyebrow">02 / YOUR SCENARIO</span>
+<h2 id="quote-result-title">计算结果</h2>
+<p>只有全部必要输入合法时显示结果，避免把未填写的费用误当零。</p>
+<div id="quote-output" hidden aria-live="polite">
+<div class="quote-number"><span>扣除平台费与直接成本后（USD）</span><strong id="out-usd"></strong></div>
+<div class="quote-number"><span>换算后再扣境内手续费（税前 CNY）</span><strong id="out-cny"></strong></div>
+<div class="quote-number"><span>税前净额 ÷ 履约工时（CNY/小时）</span><strong id="out-hourly"></strong></div>
+<div class="quote-number"><span>相对目标时薪差额</span><strong id="out-gap"></strong></div>
+<p id="quote-status" class="quote-status" role="status"></p>
+</div>
+<button type="button" id="export-quote" class="quote-export" disabled>下载本次计算 CSV</button>
+<p class="quote-hint">CSV 不包含客户身份或订单号。所有输入都只在当前网页的内存中，刷新即清空。</p>
+</section>
+</main>
+<section class="container quote-notes">
+<h2>公式、局限和核验步骤</h2>
+<p><strong>税前美元净额</strong> = 美元报价 − 按比例收取的平台费 − 固定手续费 − 美元直接履约成本；<strong>税前人民币参考额</strong> = 税前美元净额 × 用户输入的假设汇率 − 人民币其他手续费。结果保留计算精度，仅展示到小数点后两位。</p>
+<p>这里不包括所得税、增值税、预提税、退汇/拒付、价格波动、跨行中转费用与隐性工时；“净额”不是财务报表意义上的净利润，也不是银行保证到账金额。负数表示假设成本超过回款，请不要据此直接下单。</p>
+<p>实际经营中，应先核对平台/账户资格、合同币种、收费明细和外汇税务规定。原手册的官方来源整理于 2026-11-13 左右，<strong>本页没有把外部规则或汇率冒充为 2026-11-22 新核验结果</strong>。</p>
+<div class="quote-links">
+<a href="https://support.upwork.com/hc/en-us/articles/211063888-How-to-withdraw-earnings-with-Direct-to-Local-Bank">Upwork 提现说明（官方）</a>
+<a href="https://stripe.com/global">Stripe 支持地区（官方）</a>
+<a href="https://www.safe.gov.cn/ningxia/2022/0929/1997.html">外汇便利化额度解释（国家外汇局）</a>
+<a href="docs/SOURCES.html">查看更多官方资料与历史来源</a>
+<a href="templates/service-quote.html">用英文服务报价模板约定交付范围</a>
+<a href="pdf/how-to-earn-usd-from-china-guide.pdf">下载原版 42 页 PDF</a>
+</div>
+</section>
+<footer class="foot"><div class="container quote-footer">
+<div><strong>AI 酋长 Andy · 星觉科技</strong><p>免费工具，不出售报价数据。咨询与合作自愿选择。</p></div>
+<div class="quote-links"><a href="https://metaver.vip/">个人官网</a><a href="https://www.a6no1.cn/">公司官网</a><a href="https://metaver.vip/services">AI 咨询与陪跑</a><a href="https://github.com/AIPMAndy/how-to-earn-usd-from-china">GitHub 源码</a></div>
+<div><p>微信：<code>AIPMAndy</code></p><button id="copy-wechat" class="quote-secondary" type="button">复制微信号</button><p id="copy-wechat-status" role="status" aria-live="polite"></p></div>
+</div></footer>
+</body></html>
