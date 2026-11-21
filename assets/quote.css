@@ -1,0 +1,44 @@
+/* Independent source for quote.html. Existing site.css/route finder unchanged. */
+.skip-quote{position:absolute;left:12px;top:-80px;background:#fff;color:#13202c;padding:12px;z-index:50}
+.skip-quote:focus{top:10px}
+.quote-head{background:#111b26;color:#f8f8f6;padding:68px 0 62px;border-bottom:4px solid #9b876a}
+.quote-head h1{font:600 clamp(32px,4.5vw,52px)/1.28 var(--serif);max-width:850px;margin:16px 0 22px}
+.quote-head p{font-size:16px;line-height:1.9;max-width:760px;color:#d5dae0}
+.quote-head .quote-meta{color:#d0bb9f;font-size:13px;margin-top:24px}
+.quote-layout{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(290px,.75fr);gap:25px;align-items:start;margin-top:36px;margin-bottom:30px}
+.quote-paper,.quote-result,.quote-notes{background:#fff;border:1px solid #dddcd7;box-shadow:0 8px 32px #10192508;border-radius:12px;padding:30px}
+.quote-result{background:#f8f7f2}
+.quote-paper h2,.quote-result h2,.quote-notes h2{font:600 26px/1.35 var(--serif);margin:8px 0 17px;color:#15212c}
+.quote-section-title{display:flex;align-items:start;justify-content:space-between;gap:15px}
+.quote-hint,.quote-result>p,.quote-notes p{font-size:14px;color:#535c66;line-height:1.85}
+.quote-demo{padding:14px;border-left:3px solid #967648;background:#f5f0e7;color:#5a452e;font-size:14px;line-height:1.7}
+.quote-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:28px 0}
+.quote-grid label{display:flex;flex-direction:column;gap:8px;color:#2c3741;font-size:13px;font-weight:650;line-height:1.5}
+.quote-grid input{min-width:0;width:100%;border:1px solid #a9afb3;border-radius:6px;color:#192632;background:#fff;padding:13px 11px;font-size:16px}
+.quote-grid input:focus-visible,.quote-primary:focus-visible,.quote-secondary:focus-visible,.quote-export:focus-visible{outline:3px solid #a07845;outline-offset:3px}
+.quote-primary,.quote-secondary,.quote-export{border-radius:5px;padding:13px 17px;min-height:44px;transition:background .1s ease}
+.quote-primary{background:#132433;color:#fff;border:1px solid #132433;font-weight:700}
+.quote-secondary{background:#fff;color:#152433;border:1px solid #8e9aa2;font-size:13px;font-weight:650}
+.quote-export{display:block;width:100%;background:#162b3a;color:#fff;border:1px solid #162b3a;margin-top:24px;font-weight:700}
+.quote-export:disabled{opacity:.55;cursor:not-allowed}
+.quote-error{min-height:24px;color:#a32623;font-size:13px;line-height:1.8}
+.quote-number{border-bottom:1px solid #d6d7d4;padding:20px 0}
+.quote-number span{display:block;color:#515d67;font-size:13px;line-height:1.6}
+.quote-number strong{display:block;color:#0e2436;font-size:clamp(21px,2.4vw,29px);font-variant-numeric:tabular-nums;margin-top:8px;overflow-wrap:anywhere}
+.quote-status{font-size:13px;line-height:1.7;color:#384552}
+.quote-notes{margin-bottom:48px}
+.quote-notes p{max-width:880px}
+.quote-notes strong{color:#1d3241}
+.quote-links{display:flex;gap:12px 18px;flex-wrap:wrap;margin-top:22px}
+.quote-links a{color:#225275;text-decoration:underline;text-underline-offset:3px;font-size:13px;line-height:1.8}
+.quote-footer{display:grid;grid-template-columns:1.1fr 1.1fr .8fr;gap:24px;align-items:start}
+.quote-footer strong{color:#f8f6f1}
+.quote-footer p{line-height:1.7}
+.quote-footer .quote-links{margin-top:0}
+.quote-footer .quote-links a{color:#e5cda7}
+.quote-footer code{font-weight:bold;font-size:17px;color:#fff}
+.quote-footer .quote-secondary{color:#132433}
+#copy-wechat-status{min-height:1.3em}
+@media(max-width:900px){.quote-layout{grid-template-columns:1fr}.quote-footer{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.container{width:min(100% - 28px,1080px)}.quote-head{padding:46px 0}.quote-grid{grid-template-columns:1fr;gap:13px}.quote-paper,.quote-result,.quote-notes{padding:21px 18px}.quote-section-title{flex-wrap:wrap}.quote-footer{grid-template-columns:1fr}.quote-notes{margin-bottom:22px}.quote-layout{margin-top:18px}.quote-head h1{font-size:34px}}
+@media(prefers-reduced-motion:reduce){.quote-primary,.quote-secondary,.quote-export{transition:none}}
